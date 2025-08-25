@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load dataset
-df = pd.read_csv("your_dataset.csv")  # replace with actual file
+df = pd.read_csv("nba.csv")  # replace with actual file
 
 # Target and features
 target = "PTS"
